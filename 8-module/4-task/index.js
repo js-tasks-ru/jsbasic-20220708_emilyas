@@ -4,7 +4,7 @@ import escapeHtml from "../../assets/lib/escape-html.js";
 import Modal from "../../7-module/2-task/index.js";
 
 export default class Cart {
-  cartItems = []; 
+  cartItems = [];
 
   constructor(cartIcon) {
     this.cartIcon = cartIcon;
@@ -91,8 +91,8 @@ export default class Cart {
             </button>
           </div>
           <div class="cart-product__price">€${(product.price * count).toFixed(
-            2
-          )}</div>
+    2
+  )}</div>
         </div>
       </div>
     </div>`);
@@ -114,8 +114,8 @@ export default class Cart {
           <div class="cart-buttons__info">
             <span class="cart-buttons__info-text">total</span>
             <span class="cart-buttons__info-price">€${this.getTotalPrice().toFixed(
-              2
-            )}</span>
+    2
+  )}</span>
           </div>
           <button type="submit" class="cart-buttons__button btn-group__button button">order</button>
         </div>
